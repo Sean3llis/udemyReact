@@ -1,0 +1,43 @@
+{ "swatchStacks": [
+	{
+		"title": "stack 1",
+		"values": [
+			"#2A363B",
+			"#E84A5F",
+			"#FF847C",
+			"#FECEA8",
+			"#99B898"
+		]
+	},
+	{
+		"title": "stack 2",
+		"values": [
+			"#00A0B0",
+			"#6A4A3C",
+			"#CC333F",
+			"#EB6841",
+			"#EDC951" 
+		]
+	},
+	{
+		"title": "stack 2",
+		"values": [
+			"#FAD089",
+			"#FF9C5B",
+			"#F5634A",
+			"#ED303C",
+			"#3B8183"
+		]
+	},
+	{
+		"title": "stack 2",
+		"values": [
+			"#F8B195",
+			"#F67280",
+			"#C06C84",
+			"#6C5B7B",
+			"#355C7D"
+		]
+	}
+	]
+}

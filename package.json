@@ -9,11 +9,13 @@
   "author": "Sean Ellis",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^2.3.2",
     "gulp": "^3.9.0",
     "gulp-sass": "^2.1.0",
     "gulp-util": "^3.0.7",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
+    "reactfire": "^0.5.1",
     "webpack": "^1.12.6",
     "webpack-dev-server": "^1.12.1"
   },

@@ -1,2 +1,23 @@
+.colorStack {
+  background-color: #fff;
+  max-width: 200px;
+  width: 100%;
+  display: inline-block;
+  margin: 0px 15px; }
+  .colorStack .colorChip {
+    line-height: 20px;
+    font-size: 0.7em;
+    padding: 20px 0px; }
+  .colorStack .colorTitle {
+    color: #333333;
+    padding: 20px 0px;
+    font-weight: bold; }
+
+.newColorStack {
+  max-width: 300px; }
+
+* {
+  font-family: 'raleway', 'helvetica', 'arial', 'sans-serif'; }
+
 .container {
   text-align: center; }

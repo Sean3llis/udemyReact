@@ -2,31 +2,33 @@
 
 var React = require('react');
 var ReactDOM = require('react-dom');
+var ReactFire = require('reactfire');
+var Firebase = require('firebase');
+var NewStackForm = require('./newStackForm');
+var StackList = require('./stackList');
 
 var App = React.createClass({
+	mixins: [ ReactFire ],
+	getInitialState: function() {
+		return {
+			swatchStacks: [] 
+		};
+	},
+	componentWillMount: function(){
+		var fbRef = new Firebase('https://swatchstack.firebaseio.com/swatchStacks/');
+		this.bindAsObject(fbRef, 'swatchStacks');
+	},
 	render: function(){
+		console.log(this.state);
 		return (
 			<div className="container">
-				<Btn title="test title" />
+				<StackList stacksStore={ this.state.swatchStacks } />
 			</div>
 		);
 	}
 });
 
-var Btn = React.createClass({
 
-	render: function() {
-		return (
-			<div>
-				<button className="btn btn-success">
-					{this.props.title} - {this.props.number}
-				</button>
-			</div>
-		);
-	}
 
-});
-
-module.exports = Btn;
 
 ReactDOM.render(<App />, document.getElementById('app'));
