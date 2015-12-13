@@ -1,7 +1,10 @@
 @import 'colorStack';
+@import 'login';
+
 * {
 	font-family: 'raleway', 'helvetica', 'arial', 'sans-serif';
 }
-.container {
+
+.container, .center {
 	text-align: center;
 }

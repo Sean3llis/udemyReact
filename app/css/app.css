@@ -16,8 +16,13 @@
 .newColorStack {
   max-width: 300px; }
 
+#log-in-form {
+  padding-top: 40px; }
+  #log-in-form button {
+    background-color: #eee; }
+
 * {
   font-family: 'raleway', 'helvetica', 'arial', 'sans-serif'; }
 
-.container {
+.container, .center {
   text-align: center; }
