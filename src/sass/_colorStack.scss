@@ -1,10 +1,15 @@
+.stack-wrapper {
+	padding-top: 10px;
+	padding-left: $nav-height;
+}
+
 .colorStack {
 	background-color: #fff;
 	max-width: 200px;
 	width: 100%;
 	display: inline-block;
 	margin: 0px 15px;
-	// box-shadow: 0px 2px 5px black;
+	text-align: center;
 	.colorChip {
 		line-height: 20px;
 		font-size: 0.7em;

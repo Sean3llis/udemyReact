@@ -1,9 +1,48 @@
+nav {
+  height: 60px;
+  background-color: #302B2F;
+  border-bottom: 1px solid #151315; }
+  nav a {
+    font-size: 1.5em;
+    line-height: 60px;
+    text-decoration: none;
+    color: #eee; }
+    nav a:hover, nav a:active {
+      text-decoration: none; }
+
+#sidenav {
+  width: 60px;
+  height: 100%;
+  background-color: #302B2F;
+  border-right: 1px solid #151315;
+  position: fixed;
+  top: 60px; }
+  #sidenav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center; }
+    #sidenav ul a {
+      height: 60px;
+      line-height: 60px;
+      font-size: 26px;
+      border-bottom: 1px solid #151315;
+      color: white;
+      display: block;
+      text-decoration: none; }
+      #sidenav ul a.active {
+        color: #C43F3F; }
+
+.stack-wrapper {
+  padding-top: 10px;
+  padding-left: 60px; }
+
 .colorStack {
   background-color: #fff;
   max-width: 200px;
   width: 100%;
   display: inline-block;
-  margin: 0px 15px; }
+  margin: 0px 15px;
+  text-align: center; }
   .colorStack .colorChip {
     line-height: 20px;
     font-size: 0.7em;
@@ -26,3 +65,10 @@
 
 .container, .center {
   text-align: center; }
+
+body {
+  background-color: #eee; }
+
+.preload {
+  opacity: 1;
+  transition: opacity 1s ease-in-out; }

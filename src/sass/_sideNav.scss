@@ -1,0 +1,25 @@
+#sidenav {
+  width: $nav-height;
+  height: 100%;
+  background-color: $secondary;
+  border-right: $border-width solid darken($secondary, $darken);
+	position: fixed;
+	top: $nav-height;
+  ul {
+  	list-style-type: none;
+  	padding: 0px;
+  	text-align: center;
+		a {
+  		height: $nav-height;
+  		line-height: $nav-height;
+  		font-size: 26px;
+  		border-bottom: $border-width solid darken($secondary, $darken);
+			color: white;
+			display: block;
+			text-decoration: none;
+			&.active {
+				color: $primary;
+			}
+		}
+  }
+}

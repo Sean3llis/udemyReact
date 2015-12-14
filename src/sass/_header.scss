@@ -1,0 +1,14 @@
+nav {
+	height: $nav-height;
+	background-color: $secondary;
+	border-bottom: $border-width solid darken($secondary, $darken);
+	a {
+		font-size: 1.5em;
+		line-height: $nav-height;
+		text-decoration: none;
+		color: #eee;
+		&:hover, &:active {
+			text-decoration: none;
+		}
+	}
+}

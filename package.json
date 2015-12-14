@@ -17,6 +17,7 @@
     "react-dom": "^0.14.3",
     "react-router": "^1.0.2",
     "reactfire": "^0.5.1",
+    "reflux": "^0.3.0",
     "webpack": "^1.12.6",
     "webpack-dev-server": "^1.12.1"
   },
